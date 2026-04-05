@@ -38,7 +38,7 @@ void PhanSo::RutGon()
         iTu = -iTu;
         iMau = -iMau;
     }
-    int g = gcd(llabs(iTu), llabs(iMau));
+    int g = gcd(abs(iTu), abs(iMau));
     iTu = iTu / g;
     iMau = iMau / g;
 }

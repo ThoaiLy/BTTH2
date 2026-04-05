@@ -7,12 +7,12 @@ using namespace std;
 
 int main()
 {
-    SetConsoleOutputCP(65001);
+    SetConsoleOutputCP(65001); //Ép thành phông UTF-8 trong trường hợp compile bị lỗi phông chữ
 
     SoPhuc a, b, c;
-    cout << "Nhập số phức thứ nhất: ";
+    cout << "Nhập phần thực và ảo của số phức thứ nhất: ";
     a.Nhap();
-    cout << "Nhập số phức thứ hai: ";
+    cout << "Nhập phần thực và ảo của số phức thứ hai: ";
     b.Nhap();
 
     cout << "\nSố phức thứ nhất a = ";
